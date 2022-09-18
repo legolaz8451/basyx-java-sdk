@@ -27,19 +27,18 @@
     </developers>
 	
 	<scm>
-		<connection>scm:https://github.com/eclipse-basyx/basyx-java-sdk.git</connection>
-		<developerConnection>scm:https://github.com/eclipse-basyx/basyx-java-sdk.git</developerConnection>
+		<connection>scm:git:git@github.com:legolaz8451/mvn-test.git</connection>
+		<developerConnection>scm:git:git@github.com:legolaz8451/mvn-test.git</developerConnection>
+		<url>https://github.com/legolaz8451/mvn-test</url>
 		<tag>HEAD</tag>
-		<url>https://github.com/eclipse-basyx/basyx-java-sdk</url>
-	</scm>
-
-	<distributionManagement>
+	  </scm>
+	  <distributionManagement>
 		<repository>
-			<id>github</id>
-			<name>GitHub Eclipse BaSyx Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/eclipse-basyx/basyx-java-sdk</url>
+			<id>central</id>
+			<name>a0z9xz9z6ppvy-artifactory-primary-0-releases</name>
+			<url>https://ebuitrago.jfrog.io/artifactory/default-libs-release</url>
 		</repository>
-	</distributionManagement>
+	  </distributionManagement>
 
 	<packaging>jar</packaging>
 
@@ -391,4 +390,3 @@
 		</profile>
 	</profiles>
 </project>
-
