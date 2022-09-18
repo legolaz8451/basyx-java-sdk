@@ -3,7 +3,7 @@
 
 	<groupId>org.eclipse.basyx</groupId>
 	<artifactId>basyx.sdk</artifactId>
-	<version>1.3.0-RC1</version>
+	<version>1.3.0-RC2-SNAPSHOT</version>
 	<name>BaSyx SDK</name>
 	<description>BaSyx Software Development Kit</description>
 	<url>https://www.eclipse.org/basyx/</url>
@@ -28,7 +28,7 @@
 		<connection>scm:git:git@github.com:legolaz8451/mvn-test.git</connection>
 		<developerConnection>scm:git:git@github.com:legolaz8451/mvn-test.git</developerConnection>
 		<url>https://github.com/legolaz8451/mvn-test</url>
-		<tag>basyx.sdk-1.3.0-RC1</tag>
+		<tag>HEAD</tag>
 	  </scm>
 	  <distributionManagement>
 		<repository>
